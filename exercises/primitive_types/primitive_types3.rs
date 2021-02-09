@@ -5,11 +5,11 @@
 // I AM NOT DONE
 
 fn main() {
-    let a = ???
+    let a = (-1..=1266).collect::<Vec<i32>>().try_into();
 
     if a.len() >= 100 {
-        println!("Wow, that's a big array!");
+        println!("Wow, that's a big array! {:?}", a);
     } else {
-        println!("Meh, I eat arrays like that for breakfast.");
+        println!("Meh, I eat arrays like that for breakfast. {:?}", a);
     }
 }
